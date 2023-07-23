@@ -4,78 +4,107 @@
     <title>Crazy Eddie Electronics</title>
 </head>
 <style>
-     img {
-            /* display: block; */
-            max-width: 30%;
-            height: auto;
-            margin: 20px auto;
-            border: 2px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f2f2f2;
+    }
 
+    h1 {
+        color: #0066cc;
+        background-color: #f9f9f9;
+        padding: 10px;
+        text-align: center;
+    }
 
-body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            /* display: flex; */
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f2f2f2;
-        }
+    h2 {
+        color: #009933;
+        background-color: #f9f9f9;
+        padding: 5px;
+        text-align: center;
+    }
 
-           @media screen and (max-width: 768px) {
-            body {
-                font-size: 14px;
-            }
-            h1 {
-                font-size: 28px;
-            }
-            h2 {
-                font-size: 22px;
-            }
-            p {
-                font-size: 16px;
-            }
-        }
+    p {
+        color: #333;
+        background-color: #f9f9f9;
+        padding: 5px;
+    }
 
-        @media screen and (max-width: 480px) {
-            h2 {
-                font-size: 18px;
-            }
-            img {
-                max-width: 100%;
-                height: auto;
-            }
-            ul, ol {
-                padding-left: 20px;
-            }
-        }
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 20px auto;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
+    @media screen and (max-width: 1024px) {
+        body {
+            font-size: 14px;
         }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
 
-        th, td {
-            padding: 10px;
-            border: 1px solid #ccc;
+    @media screen and (max-width: 768px) {
+        body {
+            font-size: 12px;
         }
+        h1 {
+            font-size: 22px;
+        }
+        h2 {
+            font-size: 16px;
+        }
+        p {
+            font-size: 12px;
+        }
+    }
 
-        th {
-            background-color: #f2f2f2;
-            text-align: left;
+    @media screen and (max-width: 480px) {
+        h2 {
+            font-size: 14px;
         }
+        ul, ol {
+            padding-left: 20px;
+        }
+    }
 
-        tr:hover {
-            background-color: #f9f9f9;
-        }
-       
-   
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        text-align: left;
+    }
+
+    tr:hover {
+        background-color: #f9f9f9;
+    }
 </style>
 <body>
     <h1>Welcome to Crazy Eddie Electronics</h1>
